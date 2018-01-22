@@ -4,5 +4,5 @@ def reverse_each_word(sentence1)
   words.each do |word|
     reversed.push(word.reverse)
   end 
-  reversed.join("")
+  reversed.join(" ")
 end 
